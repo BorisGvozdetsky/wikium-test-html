@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Wikium</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="yandex-tableau-widget" href="images/favicons/yandex-browser-manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container"><a class="header__logo" href="#!"><img class="header__logo-img" src="images/logo-main.svg" alt="Логотип" width="99" height="29"></a></div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="payment">
+          <div class="payment__content"> 
+            <h1 class="payment__title">Три дня для твоего мозга. </h1>
+            <p class="payment__text">Это стоит символические <b>60 рублей, </b>для того, чтобы была мотивация пройти этот путь до конца</p>
+          </div>
+          <div class="payment__form-wrap"> 
+            <form class="payment__form" action="#">
+              <div class="card payment__card"> 
+                <div class="card__front">
+                  <picture>
+                    <source srcset="images/card-system.webp" type="image/webp"><img class="card__img" src="images/card-system.png" alt="Платежные системы" width="154" height="26">
+                  </picture>
+                  <label class="card__label card__label--number">номер карты
+                    <input class="card__input card__input--number" type="text" value="Константиновский">
+                  </label>
+                  <label class="card__label card__label--name">имя владельца
+                    <input class="card__input card__input--name" type="text" value="Константиновский">
+                  </label>
+                  <label class="card__label card__label--code">срок действия
+                    <input class="card__input card__input--code" type="text" value="08   /   08">
+                  </label>
+                </div>
+                <div class="card__back">
+                  <label class="card__label card__label--back">cvc 
+                    <input class="card__input card__input--back" type="text" value="234">
+                  </label><span class="card__back-info">Три цифры с оборотной стороны</span>
+                </div>
+              </div>
+              <div class="payment__form-info">
+                <p class="payment__form-text">Мы не храним ваши данные, а сразу передаем их по зашифрованному каналу платежной системе</p>
+                <button class="payment__form-btn" type="submit">оплатить 60 &#8381;</button>
+              </div><a class="payment__form-link" href="#!">Все способы оплаты</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
